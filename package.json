@@ -1,0 +1,29 @@
+{
+  "name": "donald-toad-telegram-bot",
+  "version": "1.0.0",
+  "description": "Donald Toad Telegram Bot - A character-based crypto information bot",
+  "main": "donald_toad_render_bot.js",
+  "scripts": {
+    "start": "node donald_toad_render_bot.js",
+    "dev": "nodemon donald_toad_render_bot.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cryptocurrency",
+    "donald",
+    "toad"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
